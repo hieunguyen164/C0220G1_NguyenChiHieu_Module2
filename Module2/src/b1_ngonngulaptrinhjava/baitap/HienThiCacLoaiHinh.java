@@ -39,6 +39,8 @@ public class HienThiCacLoaiHinh {
                         }
                         System.out.println();
                     }
+                    break;
+                case 3:
                     for(int i = 1; i <= 5; i++){
                         for(int j = 1; j <= 5-i;j++){
                             System.out.print(" "); /*in ra màn hình khoảng trắng đến vị trí thứ n-i */
@@ -49,6 +51,8 @@ public class HienThiCacLoaiHinh {
                         System.out.println();
                     }
                     break;
+                default:
+                    System.out.println("No choice!");
             }
         }
     }
