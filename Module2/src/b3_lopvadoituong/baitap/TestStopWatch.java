@@ -10,6 +10,7 @@ public class TestStopWatch {
         selectionSort(array);
         System.out.println(stopWatch.stop());
         System.out.println(stopWatch.getElapsedTime());
+
     }
 
     static int randomNum(){
@@ -25,6 +26,11 @@ public class TestStopWatch {
         }
         return arr;
     }
+//    static void display(int[]arr){
+//        for(int i = 0; i< arr.length;i++){
+//            System.out.print(arr[i]+"\t");
+//        }
+//    }
 
     static int [] selectionSort(int[]arr){
         for(int i = 0; i < arr.length-1 ; i++){
