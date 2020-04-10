@@ -1,4 +1,4 @@
-package b3_lopvadoituong.baitap.stopwatch;
+package b3_lopvadoituong.baitap;
 
 public class StopWatch {
 

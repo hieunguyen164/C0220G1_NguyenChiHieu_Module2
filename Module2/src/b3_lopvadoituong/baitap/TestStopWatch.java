@@ -1,6 +1,4 @@
-package b3_lopvadoituong.baitap.stopwatch;
-
-import b3_lopvadoituong.baitap.stopwatch.StopWatch;
+package b3_lopvadoituong.baitap;
 
 import java.util.Random;
 
