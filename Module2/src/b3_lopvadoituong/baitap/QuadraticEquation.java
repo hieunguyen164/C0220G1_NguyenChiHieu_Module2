@@ -8,13 +8,13 @@ public class QuadraticEquation {
         this.c = c;
     }
     public double getA(){
-        return this.a;
+        return a;
     }
     public double getB(){
-        return this.b;
+        return b;
     }
     public double getC(){
-        return this.c;
+        return c;
     }
     public double getDiscriminant(){
         return Math.pow(this.b,2) - (4 * this.a * this.c);
