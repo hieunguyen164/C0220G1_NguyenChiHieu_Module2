@@ -1,4 +1,4 @@
-package b5_advancedobjectorienteddesign.thuchanh.LopAnimalVaInterfaceEdible;
+package b5_advancedobjectorienteddesign.thuchanh.interfaceedible;
 public class TestAnimalAndFruit {
     public static void main(String[] args) {
         Animal [] animals = new Animal[2];
