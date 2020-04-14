@@ -17,13 +17,13 @@ public class QuadraticEquation {
         return c;
     }
     public double getDiscriminant(){
-        return Math.pow(this.b,2) - (4 * this.a * this.c);
+        return Math.pow(b,2) - (4 * a * c);
 
     }
     public double getRoot1(){
-        return (-this.b + Math.sqrt(Math.pow(this.b,2)-4*this.a*this.c)) / (this.a * 2);
+        return (-b + Math.sqrt(Math.pow(b,2)-4*a*c)) / (a * 2);
     }
     public double getRoot2(){
-        return (-this.b - Math.sqrt(Math.pow(this.b,2)-4*this.a*this.c)) / (this.a * 2);
+        return (-b - Math.sqrt(Math.pow(b,2)-4*a*c)) / (a * 2);
     }
 }
