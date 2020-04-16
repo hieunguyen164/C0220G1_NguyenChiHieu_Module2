@@ -2,35 +2,6 @@ package b6_cautrucdulieuvagiaithuat.baitap.linkedlist;
 
 public class MyLinkedListTest {
     public static void main(String[] args) {
-        class Student {
-            private int id;
-            private String name;
-
-            public Student() {
-
-            }
-
-            public Student(int id, String name) {
-                this.id = id;
-                this.name = name;
-            }
-
-            public int getId() {
-                return id;
-            }
-
-            public void setId(int id) {
-                this.id = id;
-            }
-
-            public String getName() {
-                return name;
-            }
-
-            public void setName(String name) {
-                this.name = name;
-            }
-        }
 
         MyLinkedList<Student> myList = new MyLinkedList<>();
 
@@ -41,15 +12,16 @@ public class MyLinkedListTest {
         Student student5 = new Student(5, "E");
 
         System.out.println("My list: ");
-        myList.addFirst(student2);
         myList.addFirst(student1);
+        myList.addFirst(student2);
         myList.add(2, student3);
         myList.addLast(student4);
         myList.addLast(student5);
         for (int i = 0; i < myList.size(); i++) {
             Student student = myList.get(i);
             System.out.print(student.getName() + "\t");
-        };
+        }
+        ;
 
         System.out.println();
         myList.remove(2);
@@ -61,7 +33,7 @@ public class MyLinkedListTest {
 
 
         System.out.println();
-        System.out.println("Remove 'Studen4' with name 'D':");
+        System.out.println("Remove 'Student4' with name 'D':");
         myList.remove(student4);
         for (int i = 0; i < myList.size(); i++) {
             Student student = myList.get(i);
@@ -69,12 +41,11 @@ public class MyLinkedListTest {
         }
 
         System.out.println();
-        System.out.println("List contain 'student1' with name 'A'? "+ myList.constains(student1) );
-        System.out.println("List contains 'student4' with name 'D'? "+myList.constains(student4));
+        System.out.println("List contain 'student1' with name 'A'? " + myList.constains(student1));
+        System.out.println("List contains 'student4' with name 'D'? " + myList.constains(student4));
 
-        System.out.println("Student1 index = "+myList.indexOf(student1));
-        System.out.println("Student2 index = "+myList.indexOf(student2));
-
+        System.out.println("Student1 index = " + myList.indexOf(student1));
+        System.out.println("Student2 index = " + myList.indexOf(student2));
         System.out.println("Clone myList:");
         MyLinkedList<Student> cloneLinkedList = myList.clone();
         System.out.println("Main list id: " + myList);

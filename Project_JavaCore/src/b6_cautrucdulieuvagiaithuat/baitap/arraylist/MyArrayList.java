@@ -53,18 +53,13 @@ public class MyArrayList<E> {
         return size;
     }
 
+
     public MyArrayList<E> clone(){
-        MyArrayList<E> newElements = new MyArrayList<>(size());
+        MyArrayList<E> newElements = new MyArrayList<>();
         newElements.elements = Arrays.copyOf(elements,size);
+        newElements.size = size;
         return newElements;
     }
-
-//    public MyArrayList<E> clone(){
-//        MyArrayList<E> newElements = new MyArrayList<>();
-//        newElements.elements = Arrays.copyOf(elements,size);
-//        newElements.size = size;
-//        return newElements;
-//    }
 
     public boolean contains(E e) {
         for (int i = 0; i < size; i++) {

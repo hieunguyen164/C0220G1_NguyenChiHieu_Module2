@@ -16,7 +16,10 @@ public class MyArrayListTest {
         list.print();
         System.out.println("List contains 'A'? : "+list.contains("A"));
         System.out.println("Clone list: "+list);
+        list.print();
         System.out.println("New list: "+list.clone());
+        MyArrayList<String> newList = list.clone();
+        newList.print();
         list.clear();
         System.out.println("Clear list! List size = "+list.size());
 
