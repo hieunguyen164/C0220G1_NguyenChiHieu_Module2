@@ -7,10 +7,11 @@ public class ColorableTest {
         shapes[1] = new Rectangle(10,20);
         shapes[2] = new Square(15);
         for(Shape shape:shapes){
-            if(shape instanceof Colorable){
-                ((Colorable) shape).howtoColor();
-            }
             System.out.println(shape);
+            if(shape instanceof Square){
+                ((Square) shape).howtoColor();
+            }
+
             }
         }
     }
