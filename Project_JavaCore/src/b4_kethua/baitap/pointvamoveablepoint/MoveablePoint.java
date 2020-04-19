@@ -38,12 +38,10 @@ public class MoveablePoint extends Point {
     public float[] getSpeed(){
         return new float[]{xSpeed,ySpeed};
     }
-    public void move(){
-        float x = getX();
-        float y = getY();
-        x+=xSpeed;
-        y+=ySpeed;
-        setXY(x,y);
+    public MoveablePoint move(){
+        this.setX(this.getX()+this.getxSpeed());
+        this.setY(this.getY()+this.getySpeed());
+        return this;
     }
 
     @Override
