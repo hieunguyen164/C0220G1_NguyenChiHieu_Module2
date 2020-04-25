@@ -1,0 +1,4 @@
+id,nameOfService,usedArea,rentalFee,maxGuest,rentType,roomType,facilities,poolArea,numberOfFloor
+SVVL-0001,Villaa,31.0,5000.0,4,Month,Vip,Asdaf Af,31.0,2
+SVVL-0002,Villab,31.0,3000.0,4,Year,Vip,Asdaf Af,31.0,1
+SVVL-0003,Villab,31.0,3000.0,4,Year,Vip,Asdaf Af,31.0,1

@@ -1,0 +1,5 @@
+fullname,birthday,gender,idNumber,phoneNumber,email,customerType,address
+Nguyen C,21/12/1999,Male,123456789,111111111,abc@abc.co,VIP,asdaasdasd
+Nguyen C,21/12/1991,Unknown,123456789,123456789,abc@asd.com,VIP,asdasd
+Nguyen B,12/12/2000,Female,123123123,12334564567,asd@kjaf.cas,DIAMOND,asdalmad
+Nguyen A,21/3/1994,Female,123123123,12334564567,asd@kjaf.cas,DIAMOND,asdalmad
