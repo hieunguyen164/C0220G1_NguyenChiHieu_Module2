@@ -76,4 +76,3 @@ primary key(productCode, orderNumber),
 quantityOrdered int not null,
 priceEach double not null,
 orderLineNumber int not null);
-
