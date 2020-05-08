@@ -2,7 +2,7 @@ package b6_cautrucdulieuvagiaithuat.baitap.arraylist;
 
 public class MyArrayListTest {
     public static void main(String[] args) {
-        MyArrayList<String> list = new MyArrayList<>();
+        MyArrayList<String> list = new MyArrayList<String>();
         list.add("A");
         list.add("B");
         list.add("C");
