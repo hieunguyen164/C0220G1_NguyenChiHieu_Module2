@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Project_WebApplication.iml" filepath="$PROJECT_DIR$/Project_WebApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/danh_sach_khach_hang/danh_sach_khach_hang.iml" filepath="$PROJECT_DIR$/danh_sach_khach_hang/danh_sach_khach_hang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_web_currency_converter/java_web_currency_converter.iml" filepath="$PROJECT_DIR$/java_web_currency_converter/java_web_currency_converter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_web_currency_converter_jsp/java_web_currency_converter_jsp.iml" filepath="$PROJECT_DIR$/java_web_currency_converter_jsp/java_web_currency_converter_jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_web_mvc/java_web_mvc.iml" filepath="$PROJECT_DIR$/java_web_mvc/java_web_mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product_discount_calculator/product_discount_calculator.iml" filepath="$PROJECT_DIR$/product_discount_calculator/product_discount_calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server_time/server_time.iml" filepath="$PROJECT_DIR$/server_time/server_time.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple_dictionary/simple_dictionary.iml" filepath="$PROJECT_DIR$/simple_dictionary/simple_dictionary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple_dictionary_jsp/simple_dictionary_jsp.iml" filepath="$PROJECT_DIR$/simple_dictionary_jsp/simple_dictionary_jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple_login/simple_login.iml" filepath="$PROJECT_DIR$/simple_login/simple_login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ung_dung_calculator/ung_dung_calculator.iml" filepath="$PROJECT_DIR$/ung_dung_calculator/ung_dung_calculator.iml" />
+    </modules>
+  </component>
+</project>
