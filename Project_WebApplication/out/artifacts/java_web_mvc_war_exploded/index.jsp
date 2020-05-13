@@ -5,6 +5,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  <c:redirect url="/customers"></c:redirect>
+<c:redirect url="/customers"></c:redirect>
   </body>
 </html>

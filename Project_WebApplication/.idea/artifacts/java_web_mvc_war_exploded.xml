@@ -8,7 +8,7 @@
           <element id="module-output" name="java_web_mvc" />
         </element>
         <element id="directory" name="lib">
-          <element id="file-copy" path="$USER_HOME$/Downloads/jstl-1.2.jar" />
+          <element id="file-copy" path="$APPLICATION_HOME_DIR$/lib/tomcat_lib/jstl-1.2.jar" />
         </element>
       </element>
     </root>
