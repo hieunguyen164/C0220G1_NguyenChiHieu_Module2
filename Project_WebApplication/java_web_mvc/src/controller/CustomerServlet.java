@@ -69,7 +69,7 @@ public class CustomerServlet extends HttpServlet {
         if(customer == null){
             dispatcher = request.getRequestDispatcher("error-404.jsp");
         } else {
-            request.setAttribute("customer", customer);
+            request.setAttribute("customer",customer);
             dispatcher = request.getRequestDispatcher("customer/view.jsp");
         }
         try {
