@@ -21,7 +21,8 @@ public class CalculatorServiceImpl implements CalculatorService{
 
     @Override
     public double div(double number1, double number2) {
-        return number1/number2;
+            return number1 / number2;
+
     }
     @Override
     public double calculate(double number1,double number2,String operand){
@@ -35,8 +36,9 @@ public class CalculatorServiceImpl implements CalculatorService{
             case "Multiplication(*)":
                 return mul(number1,number2);
 
-            case "Division(/)":
-                return div(number1,number2);
+                case "Division(/)":
+                    return div(number1, number2);
+
             default:
                 return -1;
         }
