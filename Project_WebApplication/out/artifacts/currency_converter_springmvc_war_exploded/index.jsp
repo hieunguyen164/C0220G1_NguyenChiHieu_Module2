@@ -19,10 +19,5 @@
   <input type="text" name="usd" placeholder="USD" value="0"><br/><br/>
   <input type="submit" id="submit" value="Converter">
 </form>
-<h1>
-  <c:if test='${requestScope["convertResult"] != null}'>
-    <span>VND:${requestScope["convertResult"]}</span>
-  </c:if>
-</h1>
 </body>
 </html>

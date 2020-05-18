@@ -13,10 +13,21 @@ public class ConverterController {
     @Autowired
     CalculateService calculateService;
     @GetMapping("/convert")
-    public String cal(@RequestParam("rate") String rate, @RequestParam("usd") String usd, Model model){
-        double result = calculateService.calculator(Double.parseDouble(rate),Double.parseDouble(usd));
-        model.addAttribute("convertResult",result);
-        return "index";
+//    public String cal(@RequestParam("rate") String rate, @RequestParam("usd") String usd, Model model){
+//        double convertResult = calculateService.calculator(Double.parseDouble(rate),Double.parseDouble(usd));
+//        model.addAttribute("rate",rate);
+//        model.addAttribute("usd",usd);
+//        model.addAttribute("convertResult",convertResult);
+//        return "result";
+//    }
+
+    public ModelAndView cal(@RequestParam("rate") String rate,@RequestParam("usd") String usd){
+        double convertResult = calculateService.calculator(Double.parseDouble(rate),Double.parseDouble(usd));
+        ModelAndView modelAndView = new ModelAndView("result");
+        modelAndView.addObject("rate",rate);
+        modelAndView.addObject("usd",usd);
+        modelAndView.addObject("convertResult", convertResult);
+        return modelAndView;
     }
 
 }
