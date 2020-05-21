@@ -16,6 +16,10 @@
 <p>
     <a href="/products?action=create">Create new product</a>
 </p>
+<form action="/products?action=search" method="get">
+    <input type="text" name="productName">
+    <input type="button" value="Search">
+</form>
 <table border="1">
     <tr>
         <td>Name</td>
@@ -26,11 +30,11 @@
     </tr>
     <c:forEach var="product" items="${products}">
         <tr>
-            <td><a href="/products?action=view&id=${product.getId()}">${product.getName()}</a> </td>
+            <td><a href="/products?action=view&id=${product.getId()}">${product.getName()}</a></td>
             <td>${product.getBrand()}</td>
             <td>${product.getPrice()}</td>
-            <td><a href="/products?action=edit&id=${product.getId()}">Edit</a> </td>
-            <td><a href="/products?action=delete&id=${product.getId()}">Delete</a> </td>
+            <td><a href="/products?action=edit&id=${product.getId()}">Edit</a></td>
+            <td><a href="/products?action=delete&id=${product.getId()}">Delete</a></td>
         </tr>
     </c:forEach>
 </table>

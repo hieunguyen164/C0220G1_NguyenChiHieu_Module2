@@ -32,6 +32,15 @@ public class ProductServiceImpl implements ProductService {
     public Product findById(int id) {
         return products.get(id);
     }
+    @Override
+    public Product findByName(String name){
+        for(Product product: products.values()){
+            if(name.equals(product.getName())){
+                return product;
+            }
+        }
+        return null;
+    }
 
     @Override
     public void update(int id, Product product) {
